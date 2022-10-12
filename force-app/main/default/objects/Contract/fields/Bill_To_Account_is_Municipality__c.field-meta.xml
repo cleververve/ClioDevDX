@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_To_Account_is_Municipality__c</fullName>
+    <externalId>false</externalId>
+    <formula>Bill_To_Account__r.municipalityaccount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Bill To Account is Municipality</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

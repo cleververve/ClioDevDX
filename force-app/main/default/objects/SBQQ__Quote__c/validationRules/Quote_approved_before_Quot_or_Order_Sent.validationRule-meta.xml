@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_approved_before_Quot_or_Order_Sent</fullName>
+    <active>false</active>
+    <description>The quote need to have the status &quot;Approved&quot; ( or empty) to  change step in quote process (Quote Status Field).
+Field used: 
+- Approval Needed: field depends on a Process Builder called &quot;Approval Process Needed update Yes or No&quot;.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Approval__c  , &quot;Yes&quot;),
+
+OR( 
+  ISPICKVAL( ApprovalStatus__c , &quot;&quot;),
+  ISPICKVAL( ApprovalStatus__c , &quot;Pending&quot;), 
+  ISPICKVAL( ApprovalStatus__c , &quot;Rejected&quot;),
+  ISPICKVAL( ApprovalStatus__c , &quot;Recalled&quot;)),
+
+OR(
+ISPICKVAL( SBQQ__Status__c  , &quot;Quote Sent&quot;),
+ISPICKVAL( SBQQ__Status__c , &quot;Order Confirmation Sent&quot;))
+)</errorConditionFormula>
+    <errorMessage>Please have you Quote Approved before going further !</errorMessage>
+</ValidationRule>

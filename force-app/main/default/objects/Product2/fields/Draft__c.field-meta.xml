@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Draft__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>use for massupdate checkbox</description>
+    <externalId>false</externalId>
+    <inlineHelpText>use for massupdate checkbox</inlineHelpText>
+    <label>Draft</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

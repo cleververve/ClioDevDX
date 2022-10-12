@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DK_Customers_No_Institution2</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Municipality_Name__c</columns>
+    <columns>Institution_Type_DK__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Customer</value>
+    </filters>
+    <filters>
+        <field>Market__c</field>
+        <operation>equals</operation>
+        <value>Denmark</value>
+    </filters>
+    <filters>
+        <field>Institution_Type_DK__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>sales</value>
+    </filters>
+    <label>DK Customers - No Institution2</label>
+</ListView>

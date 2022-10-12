@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_request_DK_ALL</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>First_Trial_Date__c</columns>
+    <columns>Last_Trial_Date__c</columns>
+    <columns>Account_Zero_Id__c</columns>
+    <columns>Contact_Zero_External_Id__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Marketo_Sync__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>LEAD.CONVERTED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.COUNTRY</field>
+        <operation>equals</operation>
+        <value>Denmark,DK</value>
+    </filters>
+    <filters>
+        <field>DK_Trial_request_portals__c</field>
+        <operation>equals</operation>
+        <value>Price request</value>
+    </filters>
+    <label>Price request DK- ALL</label>
+</ListView>

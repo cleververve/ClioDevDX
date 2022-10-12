@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Educational Stage</inlineHelpText>
+    <label>Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Högstadiet</fullName>
+                <default>false</default>
+                <label>Högstadiet</label>
+            </value>
+            <value>
+                <fullName>Mellanstadiet</fullName>
+                <default>false</default>
+                <label>Mellanstadiet</label>
+            </value>
+            <value>
+                <fullName>Förberedelseklass</fullName>
+                <default>false</default>
+                <label>Förberedelseklass</label>
+            </value>
+            <value>
+                <fullName>Børnehaveklasse/0. Klasse</fullName>
+                <default>false</default>
+                <label>Børnehaveklasse/0. Klasse</label>
+            </value>
+            <value>
+                <fullName>Indskolning</fullName>
+                <default>false</default>
+                <label>Indskolning</label>
+            </value>
+            <value>
+                <fullName>Mellemtrin</fullName>
+                <default>false</default>
+                <label>Mellemtrin</label>
+            </value>
+            <value>
+                <fullName>Udskolning</fullName>
+                <default>false</default>
+                <label>Udskolning</label>
+            </value>
+            <value>
+                <fullName>10. Klasse</fullName>
+                <default>false</default>
+                <label>10. Klasse</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Børnehaveklasse</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Børnehaveklasse</label>
+            </value>
+            <value>
+                <fullName>Børnehaveklassen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Børnehaveklassen</label>
+            </value>
+            <value>
+                <fullName>Lågsta</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lågsta</label>
+            </value>
+            <value>
+                <fullName>TBC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TBC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

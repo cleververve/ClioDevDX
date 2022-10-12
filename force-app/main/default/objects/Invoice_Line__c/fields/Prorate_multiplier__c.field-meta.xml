@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prorate_multiplier__c</fullName>
+    <externalId>false</externalId>
+    <formula>(
+	(
+		(YEAR(End_Date__c) -  YEAR(Start_Date__c))*12
+		
+	) +
+	(
+		IF(
+			DAY(End_Date__c+1) &gt;= DAY(Start_Date__c),
+            IF(MONTH(End_Date__c) = 12 &amp;&amp; DAY(End_Date__c) = 31, 12, 0) +
+			(MONTH(End_Date__c + 1) - MONTH(Start_Date__c)) +
+			(End_Date__c+1 - DATE(YEAR(End_Date__c+1), MONTH(End_Date__c+1), MIN(DAY(Start_Date__c),DAY(ADDMONTHS(DATE(YEAR(TODAY()),MONTH(End_Date__c+1), 1),1)-1)))) / (365/12), 
+			(MONTH(ADDMONTHS(End_Date__c+1,-1)) - MONTH(Start_Date__c)) +
+			(End_Date__c+1 - DATE(YEAR(ADDMONTHS(End_Date__c+1,-1)), MONTH(ADDMONTHS(End_Date__c+1,-1)), MIN(DAY(Start_Date__c), DAY(ADDMONTHS(DATE(YEAR(TODAY()),MONTH(ADDMONTHS(End_Date__c+1,-1)), 1),1)-1)))) / (365/12)
+		)
+	)
+) /  12</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Prorate multiplier</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>16</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

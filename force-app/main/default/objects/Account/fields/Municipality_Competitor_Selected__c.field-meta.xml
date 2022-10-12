@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Municipality_Competitor_Selected__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Competitor selected by Municipality</inlineHelpText>
+    <label>Municipality - Competitor Selected</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DK - Alinea</fullName>
+                <default>false</default>
+                <label>DK - Alinea</label>
+            </value>
+            <value>
+                <fullName>DK - Gyldendal</fullName>
+                <default>false</default>
+                <label>DK - Gyldendal</label>
+            </value>
+            <value>
+                <fullName>DK - OK</fullName>
+                <default>false</default>
+                <label>DK - OK</label>
+            </value>
+            <value>
+                <fullName>DK - Goforlag</fullName>
+                <default>false</default>
+                <label>DK - Goforlag</label>
+            </value>
+            <value>
+                <fullName>DK - Matematikfessor</fullName>
+                <default>false</default>
+                <label>DK - Matematikfessor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Auto_Renewal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field created to be able to store information from the Quote/Order that generated this contract. Field will be populated by workflow when contract is created.</description>
+    <externalId>false</externalId>
+    <label>Auto Renewal (Contract)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

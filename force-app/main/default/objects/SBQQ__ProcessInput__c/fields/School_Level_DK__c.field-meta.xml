@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Level_DK__c</fullName>
+    <description>Custom field used in the &apos;Denmark Quote Process&apos; to filter out products</description>
+    <externalId>false</externalId>
+    <label>School Level DK</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Børnehaveklasse/0. Klasse</fullName>
+                <default>false</default>
+                <label>Børnehaveklasse/0. Klasse</label>
+            </value>
+            <value>
+                <fullName>Mellemtrin</fullName>
+                <default>false</default>
+                <label>Mellemtrin</label>
+            </value>
+            <value>
+                <fullName>Indskolning</fullName>
+                <default>false</default>
+                <label>Indskolning</label>
+            </value>
+            <value>
+                <fullName>Udskolning</fullName>
+                <default>false</default>
+                <label>Udskolning</label>
+            </value>
+            <value>
+                <fullName>10. Klasse</fullName>
+                <default>false</default>
+                <label>10. Klasse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

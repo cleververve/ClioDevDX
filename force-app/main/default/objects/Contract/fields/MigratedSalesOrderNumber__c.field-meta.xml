@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MigratedSalesOrderNumber__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <caseSensitive>true</caseSensitive>
+    <description>Unique SalesOrder identifier used for importing and updating contract data during the data migration May 2019.</description>
+    <externalId>true</externalId>
+    <label>MigratedSalesOrderNumber</label>
+    <length>128</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

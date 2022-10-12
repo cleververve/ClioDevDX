@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Competitor_Closed_Lost_info</fullName>
+    <active>true</active>
+    <description>Update 
+1. &quot;Lost Contract Term&quot; (How long contract have our competitors signed, ex 24 months)
+2. &quot;Lost Contract Value&quot; (Total contract value, ex 100000 DKK/SEK)
+
+Use to plan and contact customer back again when contract is about to end.</description>
+    <errorConditionFormula>AND(
+CASE( Loss_Reason__c ,
+&quot;Competition&quot;,1,
+&quot;Price&quot;,1,
+0) = 1,
+NOT($Profile.Id = &quot;00e1t000001YBXx&quot;),
+NOT($Profile.Id = &quot;00e3W000000LqpP&quot;),
+ISBLANK(Lost_Contract_term__c),
+ISBLANK(Lost_Contract_Value__c)
+)</errorConditionFormula>
+    <errorDisplayField>Lost_Contract_term__c</errorDisplayField>
+    <errorMessage>Update 
+1. &quot;Lost Contract Term&quot; (How long contract have our competitors signed, ex 24 months)
+2. &quot;Lost Contract Value&quot; (Total contract value, ex 100000 DKK/SEK)</errorMessage>
+</ValidationRule>

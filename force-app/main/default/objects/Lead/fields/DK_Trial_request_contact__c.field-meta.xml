@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DK_Trial_request_contact__c</fullName>
+    <description>Use in trial form to add when prospect wants sales to call back</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use in trial form to add when prospect wants sales to call back</inlineHelpText>
+    <label>DK - Trial request contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

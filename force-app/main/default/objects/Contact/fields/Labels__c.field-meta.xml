@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Labels__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Labels/Mærkater</inlineHelpText>
+    <label>Labels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:a kontaktperson</fullName>
+                <default>false</default>
+                <label>Primary Contact</label>
+            </value>
+            <value>
+                <fullName>2:a kontaktperson</fullName>
+                <default>false</default>
+                <label>Secondary Contact</label>
+            </value>
+            <value>
+                <fullName>Principal</fullName>
+                <default>false</default>
+                <label>Principal</label>
+            </value>
+            <value>
+                <fullName>Assitant Principal</fullName>
+                <default>false</default>
+                <label>Assitant Principal</label>
+            </value>
+            <value>
+                <fullName>Clio Contact</fullName>
+                <default>false</default>
+                <label>Clio Contact</label>
+            </value>
+            <value>
+                <fullName>Super User</fullName>
+                <default>false</default>
+                <label>Super User</label>
+            </value>
+            <value>
+                <fullName>Beslutningstager - Praktisk-musisk</fullName>
+                <default>false</default>
+                <label>Decision Maker - Praktisk-musisk</label>
+            </value>
+            <value>
+                <fullName>Beslutningstager - Kulturfagspakken</fullName>
+                <default>false</default>
+                <label>Decision Maker - Social Studies</label>
+            </value>
+            <value>
+                <fullName>Beslutningstager -  Matematik</fullName>
+                <default>false</default>
+                <label>Decision Maker -  Math</label>
+            </value>
+            <value>
+                <fullName>Beslutningstager -  Sprog</fullName>
+                <default>false</default>
+                <label>Decision Maker -  Languages</label>
+            </value>
+            <value>
+                <fullName>Beslutningstager -  Naturfagspakken</fullName>
+                <default>false</default>
+                <label>Beslutningstager -  Natural Sciences</label>
+            </value>
+            <value>
+                <fullName>No Longer Works at School</fullName>
+                <default>false</default>
+                <label>No Longer Works at School</label>
+            </value>
+            <value>
+                <fullName>Clio Coach</fullName>
+                <default>false</default>
+                <label>Clio Coach</label>
+            </value>
+            <value>
+                <fullName>Administratör</fullName>
+                <default>false</default>
+                <label>Administratör</label>
+            </value>
+            <value>
+                <fullName>Ekonomiansvarig</fullName>
+                <default>false</default>
+                <label>Ekonomiansvarig</label>
+            </value>
+            <value>
+                <fullName>Uppstartare</fullName>
+                <default>false</default>
+                <label>Uppstartare</label>
+            </value>
+            <value>
+                <fullName>DPA</fullName>
+                <default>false</default>
+                <label>DPA</label>
+            </value>
+            <value>
+                <fullName>Decision maker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Decision maker</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

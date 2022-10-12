@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_List_Price_per_Year__c</fullName>
+    <description>Field hidden and used to calculate the pRice per year (bfore discount)</description>
+    <externalId>false</externalId>
+    <formula>IF(SBQQ__ProrateMultiplier__c &gt;1, (SBQQ__ListTotal__c / SBQQ__ProrateMultiplier__c ) , SBQQ__ListTotal__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>List Total per Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

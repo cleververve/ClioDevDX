@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ApprovalStatus__c</fullName>
+    <description>- Picklist values depend on the Approval Process status. 
+Once Submitted for Approval, status will change from empty to &quot;Submitted&quot; and will be automatically updated according to the Approver answer (Rejected or Approved). 
+- Sales can also Recall and status will be changed to Recalled.
+
+- Approval Status value fields are used in the Validation Rule  &quot;Quote_approved_before_Quot_or_Order_Sent&quot; . So that the Quote Status can&apos;t be changed if the Quote is not approved. (if approval needed).
+
+- Approval Status value fields is used  in the Lightning Component Quote page to have &quot;Approval Needed / on going / Approved &quot; banner. 
+Also used to have the frame &quot;Reasons for Approval&quot;.</description>
+    <externalId>false</externalId>
+    <label>Approval Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Recalled</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>Recalled</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

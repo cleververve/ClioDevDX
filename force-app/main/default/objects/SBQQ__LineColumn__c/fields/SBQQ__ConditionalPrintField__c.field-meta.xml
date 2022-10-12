@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConditionalPrintField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field on quote object that controls whether this column prints on generated PDF document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field on quote object that controls whether this column prints on generated PDF document.</inlineHelpText>
+    <label>Conditional Print Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Group Line Items</fullName>
+                <default>false</default>
+                <label>Group Line Items</label>
+            </value>
+            <value>
+                <fullName>SBQQ__TotalDiscountAmount__c</fullName>
+                <default>false</default>
+                <label>SBQQ__TotalDiscountAmount__c</label>
+            </value>
+            <value>
+                <fullName>Clio_Custom_record_type_is_true__c</fullName>
+                <default>false</default>
+                <label>Clio_Custom_record_type_is_true__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira_Dashboard__c</fullName>
+    <description>Use for implementation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use for implementation</inlineHelpText>
+    <label>Jira Dashboard</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

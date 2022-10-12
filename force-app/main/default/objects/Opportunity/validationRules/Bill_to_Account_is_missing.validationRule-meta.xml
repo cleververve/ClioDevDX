@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_to_Account_is_missing</fullName>
+    <active>true</active>
+    <description>Cant set to &quot;closed won in opportuniy if &quot;Bill to account is missing in Primary Quote.</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(StageName, &apos;Closed Won&apos;),
+ISPICKVAL(StageName, &apos;Deal Desk&apos;)
+),
+NOT(ISBLANK( SBQQ__PrimaryQuote__c )),
+OR(
+ISBLANK( SBQQ__PrimaryQuote__r.Bill_To_Account__c )
+))</errorConditionFormula>
+    <errorMessage>You cannot set opportunity to &quot;Deal Desk&quot; or &quot;Closed Won&quot; if the Primary Quote&apos;s &quot;Bill To Account&quot; is missing, To resolve this, simply go to the &quot;Primary Quote&quot; on this opportunity and update the field &quot;Bill To Account&quot;.
+Yours sincerely, Deal Desk.</errorMessage>
+</ValidationRule>

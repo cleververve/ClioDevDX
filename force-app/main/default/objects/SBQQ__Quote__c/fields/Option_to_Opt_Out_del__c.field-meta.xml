@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Option_to_Opt_Out_del__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Not for Layout: if checked, opt out is possible (date fulfilled in Option Expiration Date)
+- Used in the process Builder &quot;Option to Opt out Boolean&quot; to see in the frame &quot;reasons for approval&quot; (lightning component)</description>
+    <externalId>false</externalId>
+    <label>Option to Opt Out to withdraw</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_overview_By_Muni</fullName>
+    <columns>SBQQ__Account__c</columns>
+    <columns>SBQQ__ProductName__c</columns>
+    <columns>SBQQ__StartDate__c</columns>
+    <columns>SBQQ__EndDate__c</columns>
+    <columns>NAME</columns>
+    <columns>SBQQ__RenewedDate__c</columns>
+    <columns>SBQQ__TerminatedDate__c</columns>
+    <columns>Is_Active__c</columns>
+    <columns>Municipality_Order__c</columns>
+    <columns>Auto_Renewal__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Municipality__c</field>
+        <operation>contains</operation>
+        <value>Lemvig</value>
+    </filters>
+    <filters>
+        <field>SBQQ__EndDate__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>6/30/2019</value>
+    </filters>
+    <filters>
+        <field>SBQQ__EndDate__c</field>
+        <operation>lessThan</operation>
+        <value>12/31/2099</value>
+    </filters>
+    <label>Subscription overview | By Muni</label>
+</ListView>

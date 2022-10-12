@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Was_created_from_Lead__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field created for reporting to differentiate Opportunity created from Trial Lead, or manually created by Sales / coming from different sources. Field might not be needed, delete if needed.</description>
+    <externalId>false</externalId>
+    <label>Was created from Lead</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

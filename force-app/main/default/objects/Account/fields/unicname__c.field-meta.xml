@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>unicname__c</fullName>
+    <description>Uni-C Name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Uni-C Name</inlineHelpText>
+    <label>Uni-C Name</label>
+    <length>128</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

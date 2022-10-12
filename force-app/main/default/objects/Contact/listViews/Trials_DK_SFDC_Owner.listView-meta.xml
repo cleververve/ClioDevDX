@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trials_DK_SFDC_Owner</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>School_Name__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Trial_message_from_Marketo__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>Contact_Account_Zero_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Marketo_Sync__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>salesforce</value>
+    </filters>
+    <label>Trials DK - SFDC Owner</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Yearly_Order_Value__c</fullName>
+    <description>Sums the Price Per Year value on the Quote Lines</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Price per year, regardless of contract duration.</inlineHelpText>
+    <label>Total Yearly Order Value</label>
+    <summarizedField>SBQQ__QuoteLine__c.Customer_Price_per_Year_WF__c</summarizedField>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

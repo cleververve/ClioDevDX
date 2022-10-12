@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_rule_Activate_Zero</fullName>
+    <active>true</active>
+    <description>Opp with record type &quot;Standard Opportunity&quot; cannot be set to closed won if Check Zero Activated is False.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(StageName,&quot;Closed Won&quot;), 
+CloseDate &gt; DATE(2020,05,24),  
+ISNULL( Close_Date_Stamp__c ),
+OR( 
+RecordTypeId = &quot;0121t0000001cuuAAA&quot;,
+Check_Zero_Activated__c = False
+)
+)</errorConditionFormula>
+    <errorDisplayField>Check_Zero_Activated__c</errorDisplayField>
+    <errorMessage>Please make sure you have activated portals in Zero. You need to check the field &quot;Check Zero Activated&quot; as TRUE. Deal Desk.</errorMessage>
+</ValidationRule>

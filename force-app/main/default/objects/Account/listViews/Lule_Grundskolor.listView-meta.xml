@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lule_Grundskolor</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Short_Comment__c</columns>
+    <columns>School_Type__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Municipality__c</field>
+        <operation>equals</operation>
+        <value>Luleå kommun</value>
+    </filters>
+    <filters>
+        <field>School_Type__c</field>
+        <operation>equals</operation>
+        <value>Mellemtrin,Udskoling</value>
+    </filters>
+    <label>Luleå Grundskolor</label>
+    <sharedTo>
+        <role>Customer_Success_Specialist</role>
+    </sharedTo>
+</ListView>

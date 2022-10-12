@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Municipalities_in_SE_that_need_reference</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>municipalityaccount__c</columns>
+    <columns>Is_Parent_Account__c</columns>
+    <columns>Market__c</columns>
+    <columns>Reference_Number_Check__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Market__c</field>
+        <operation>equals</operation>
+        <value>Sweden</value>
+    </filters>
+    <filters>
+        <field>municipalityaccount__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Municipalities in SE that need reference</label>
+</ListView>

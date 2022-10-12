@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Admin_can_set_Closed_Won</fullName>
+    <active>true</active>
+    <description>Rule:https://developer.salesforce.com/forums/?id=906F0000000kA37IAE</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(StageName),
+    TEXT(StageName) = &quot;Closed Won&quot;,
+        $Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;Clio Marketing&quot;,
+$Profile.Name = &quot;Clio Partner&quot;,
+$Profile.Name = &quot;Deal Desk Light&quot;
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Only Deal Desk can set opportunity as Closed Won</errorMessage>
+</ValidationRule>

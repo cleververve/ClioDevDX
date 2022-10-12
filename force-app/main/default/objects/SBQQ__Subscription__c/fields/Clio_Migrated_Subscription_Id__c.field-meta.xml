@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Migrated_Subscription_Id__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>This field is used for storing a unique subscription Id on the contracts that was migrated during GoLive May 2019. Workaround to solve DK Subscriptions shared between schools (framework agreements)</description>
+    <externalId>true</externalId>
+    <label>Migrated Subscription Id</label>
+    <length>128</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

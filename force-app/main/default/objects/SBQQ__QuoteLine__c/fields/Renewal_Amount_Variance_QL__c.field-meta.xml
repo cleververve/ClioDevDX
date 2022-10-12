@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Amount_Variance_QL__c</fullName>
+    <description>Difference between previous ACV and current Partner ACV</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+    SBQQ__RenewedSubscription__c != &quot;&quot;,
+    Partner_ACV__c - Renewed_Subscription_ACV__c,
+   0)</formula>
+    <inlineHelpText>Difference between previous ACV and current Partner ACV</inlineHelpText>
+    <label>Renewal Amount Variance</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

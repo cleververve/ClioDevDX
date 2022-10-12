@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bonnier_Account_Type_Other__c</fullName>
+    <description>Shows information regarding the different types of accounts more related to Municipalities.</description>
+    <externalId>false</externalId>
+    <label>Account Type Other</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enskild</fullName>
+                <default>false</default>
+                <label>Enskild</label>
+            </value>
+            <value>
+                <fullName>Huvudman</fullName>
+                <default>false</default>
+                <label>Huvudman</label>
+            </value>
+            <value>
+                <fullName>Kommunal</fullName>
+                <default>false</default>
+                <label>Kommunal</label>
+            </value>
+            <value>
+                <fullName>Landsting</fullName>
+                <default>false</default>
+                <label>Landsting</label>
+            </value>
+            <value>
+                <fullName>Statlig</fullName>
+                <default>false</default>
+                <label>Statlig</label>
+            </value>
+            <value>
+                <fullName>NO ACCOUNT TYPE</fullName>
+                <default>false</default>
+                <label>NO ACCOUNT TYPE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

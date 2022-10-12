@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Profile in testing - use to allow user to verify either via text OR email for users already with &quot;Deal Desk - Light&quot; Profile.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Email verification Option</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowEmailIC</name>
+    </userPermissions>
+</PermissionSet>

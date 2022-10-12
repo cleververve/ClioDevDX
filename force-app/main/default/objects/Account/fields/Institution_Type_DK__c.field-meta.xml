@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Institution_Type_DK__c</fullName>
+    <externalId>false</externalId>
+    <label>Institution Type2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DK - Centre for Pædagogisk og psykologisk rådgivning</fullName>
+                <default>false</default>
+                <label>DK - Centre for Pædagogisk og psykologisk rådgivning</label>
+            </value>
+            <value>
+                <fullName>DK - Dagbehandlingstilbud og anbringelsessteder</fullName>
+                <default>false</default>
+                <label>DK - Dagbehandlingstilbud og anbringelsessteder</label>
+            </value>
+            <value>
+                <fullName>DK - Efterskoler</fullName>
+                <default>false</default>
+                <label>DK - Efterskoler</label>
+            </value>
+            <value>
+                <fullName>DK - Efterskoler med samlet særligt tilbud</fullName>
+                <default>false</default>
+                <label>DK - Efterskoler med samlet særligt tilbud</label>
+            </value>
+            <value>
+                <fullName>DK - Erhvervsskoler m.v.</fullName>
+                <default>false</default>
+                <label>DK - Erhvervsskoler m.v.</label>
+            </value>
+            <value>
+                <fullName>DK - Folkehøjskoler</fullName>
+                <default>false</default>
+                <label>DK - Folkehøjskoler</label>
+            </value>
+            <value>
+                <fullName>DK - Folkeskoler</fullName>
+                <default>false</default>
+                <label>DK - Folkeskoler</label>
+            </value>
+            <value>
+                <fullName>DK - Frie fagskoler</fullName>
+                <default>false</default>
+                <label>DK - Frie fagskoler</label>
+            </value>
+            <value>
+                <fullName>DK - Friskoler og private grundskoler</fullName>
+                <default>false</default>
+                <label>DK - Friskoler og private grundskoler</label>
+            </value>
+            <value>
+                <fullName>DK - Gymnasier og HF-kurser</fullName>
+                <default>false</default>
+                <label>DK - Gymnasier og HF-kurser</label>
+            </value>
+            <value>
+                <fullName>DK - Kommunale internationale skoler</fullName>
+                <default>false</default>
+                <label>DK - Kommunale internationale skoler</label>
+            </value>
+            <value>
+                <fullName>DK - Kommunale ungdomsskoler</fullName>
+                <default>false</default>
+                <label>DK - Kommunale ungdomsskoler</label>
+            </value>
+            <value>
+                <fullName>DK - Kommuner</fullName>
+                <default>false</default>
+                <label>DK - Kommuner</label>
+            </value>
+            <value>
+                <fullName>DK - Maritime uddannelsesinstitutioner</fullName>
+                <default>false</default>
+                <label>DK - Maritime uddannelsesinstitutioner</label>
+            </value>
+            <value>
+                <fullName>DK - Produktionsskoler</fullName>
+                <default>false</default>
+                <label>DK - Produktionsskoler</label>
+            </value>
+            <value>
+                <fullName>DK - Specialskoler for børn</fullName>
+                <default>false</default>
+                <label>DK - Specialskoler for børn</label>
+            </value>
+            <value>
+                <fullName>DK - Specialskoler for voksne</fullName>
+                <default>false</default>
+                <label>DK - Specialskoler for voksne</label>
+            </value>
+            <value>
+                <fullName>DK - Uddannelsesinstitutioner for unge med særlige behov</fullName>
+                <default>false</default>
+                <label>DK - Uddannelsesinstitutioner for unge med særlige behov</label>
+            </value>
+            <value>
+                <fullName>DK - Ungdommens Uddannelsesvejledning</fullName>
+                <default>false</default>
+                <label>DK - Ungdommens Uddannelsesvejledning</label>
+            </value>
+            <value>
+                <fullName>DK - Bibiliotek</fullName>
+                <default>false</default>
+                <label>DK - Bibiliotek</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

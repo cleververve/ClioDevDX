@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mixa_Maxa_Bundles_Options</fullName>
+    <columns>NAME</columns>
+    <columns>SBQQ__ConfiguredSKU__c</columns>
+    <columns>SBQQ__OptionalSKU__c</columns>
+    <columns>SBQQ__ProductName__c</columns>
+    <columns>SBQQ__Bundled__c</columns>
+    <columns>SBQQ__ProductCode__c</columns>
+    <columns>SBQQ__ProductFamily__c</columns>
+    <columns>SBQQ__Feature__c</columns>
+    <columns>SBQQ__Type__c</columns>
+    <columns>Option_Product_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SBQQ__ConfiguredSKU__c</field>
+        <operation>startsWith</operation>
+        <value>Mixa Maxa</value>
+    </filters>
+    <label>Mixa Maxa Bundles Options</label>
+</ListView>

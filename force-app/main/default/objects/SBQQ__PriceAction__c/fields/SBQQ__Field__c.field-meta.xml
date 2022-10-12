@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the field you want updated when the conditions are met.</inlineHelpText>
+    <label>Target Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unit Price</fullName>
+                <default>false</default>
+                <label>Unit Price</label>
+            </value>
+            <value>
+                <fullName>Discount (%)</fullName>
+                <default>false</default>
+                <label>Discount (%)</label>
+            </value>
+            <value>
+                <fullName>Discount (Amt)</fullName>
+                <default>false</default>
+                <label>Discount (Amt)</label>
+            </value>
+            <value>
+                <fullName>Markup (%)</fullName>
+                <default>false</default>
+                <label>Markup (%)</label>
+            </value>
+            <value>
+                <fullName>Markup (Amt)</fullName>
+                <default>false</default>
+                <label>Markup (Amt)</label>
+            </value>
+            <value>
+                <fullName>SBQQ__SubscriptionTerm__c</fullName>
+                <default>false</default>
+                <label>SBQQ__SubscriptionTerm__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ListPrice__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ListPrice__c</label>
+            </value>
+            <value>
+                <fullName>List_Price_per_Year_WF__c</fullName>
+                <default>false</default>
+                <label>List_Price_per_Year_WF__c</label>
+            </value>
+            <value>
+                <fullName>Customer_Price_per_Year_WF__c</fullName>
+                <default>false</default>
+                <label>Customer_Price_per_Year_WF__c</label>
+            </value>
+            <value>
+                <fullName>Partner_Price_per_Year_WF__c</fullName>
+                <default>false</default>
+                <label>Partner_Price_per_Year_WF__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__PartnerDiscount__c</fullName>
+                <default>false</default>
+                <label>SBQQ__PartnerDiscount__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__SpecialPriceType__c</fullName>
+                <default>false</default>
+                <label>SBQQ__SpecialPriceType__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__SpecialPrice__c</fullName>
+                <default>false</default>
+                <label>SBQQ__SpecialPrice__c</label>
+            </value>
+            <value>
+                <fullName>Fluido_List_ACV_Price_Rule__c</fullName>
+                <default>false</default>
+                <label>Fluido_List_ACV_Price_Rule__c</label>
+            </value>
+            <value>
+                <fullName>Fluido_Partner_ACV_Price_Rule__c</fullName>
+                <default>false</default>
+                <label>Fluido_Partner_ACV_Price_Rule__c</label>
+            </value>
+            <value>
+                <fullName>Fluido_Customer_ACV_Price_Rule__c</fullName>
+                <default>false</default>
+                <label>Fluido_Customer_ACV_Price_Rule__c</label>
+            </value>
+            <value>
+                <fullName>Price_Rule_1__c</fullName>
+                <default>false</default>
+                <label>Price_Rule_1__c</label>
+            </value>
+            <value>
+                <fullName>Price_Rule_2__c</fullName>
+                <default>false</default>
+                <label>Price_Rule_2__c</label>
+            </value>
+            <value>
+                <fullName>Price_Rule_3__c</fullName>
+                <default>false</default>
+                <label>Price_Rule_3__c</label>
+            </value>
+            <value>
+                <fullName>Price_Rule_4__c</fullName>
+                <default>false</default>
+                <label>Price_Rule_4__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__StartDate__c</fullName>
+                <default>false</default>
+                <label>SBQQ__StartDate__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__EndDate__c</fullName>
+                <default>false</default>
+                <label>SBQQ__EndDate__c</label>
+            </value>
+            <value>
+                <fullName>Mixa_Maxa_Options_Count__c</fullName>
+                <default>false</default>
+                <label>Mixa_Maxa_Options_Count__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Quantity__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Quantity__c</label>
+            </value>
+            <value>
+                <fullName>DKK_Qty_from_account_applied__c</fullName>
+                <default>false</default>
+                <label>DKK_Qty_from_account_applied__c</label>
+            </value>
+            <value>
+                <fullName>DKK_Prorate_Disc_Amt_applied__c</fullName>
+                <default>false</default>
+                <label>DKK_Prorate_Disc_Amt_applied__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Permission__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If permission was given to call by this Contact, this field will be checked True by Market Sync</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If permission was given to call by this Contact, this field will be checked True by Market Sync</inlineHelpText>
+    <label>Call Permission</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

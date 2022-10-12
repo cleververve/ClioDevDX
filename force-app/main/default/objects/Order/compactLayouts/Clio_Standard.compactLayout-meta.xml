@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Standard</fullName>
+    <fields>OrderNumber</fields>
+    <fields>Status</fields>
+    <fields>AccountId</fields>
+    <fields>EffectiveDate</fields>
+    <fields>Yearly_Order_Value__c</fields>
+    <fields>Total_Order_Value__c</fields>
+    <fields>OwnerId</fields>
+    <label>Clio Standard</label>
+</CompactLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Institution_Type__c</fullName>
+    <description>Shows different values for the Type of Institutions at Account level</description>
+    <externalId>false</externalId>
+    <label>Institution Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NO INSTITUTION TYPE</fullName>
+                <default>false</default>
+                <label>NO INSTITUTION TYPE</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>Public</fullName>
+                <default>false</default>
+                <label>Public</label>
+            </value>
+            <value>
+                <fullName>Kommunale ungdomsskoler</fullName>
+                <default>false</default>
+                <label>Kommunale ungdomsskoler</label>
+            </value>
+            <value>
+                <fullName>Specialskoler</fullName>
+                <default>false</default>
+                <label>Specialskoler</label>
+            </value>
+            <value>
+                <fullName>Dagbehandlingstilbud og anbringelsessteder</fullName>
+                <default>false</default>
+                <label>Dagbehandlingstilbud og anbringelsessteder</label>
+            </value>
+            <value>
+                <fullName>Friskoler og private grundskoler</fullName>
+                <default>false</default>
+                <label>Friskoler og private grundskoler</label>
+            </value>
+            <value>
+                <fullName>Efterskoler</fullName>
+                <default>false</default>
+                <label>Efterskoler</label>
+            </value>
+            <value>
+                <fullName>Efterskoler med samlet særligt tilbud</fullName>
+                <default>false</default>
+                <label>Efterskoler med samlet særligt tilbud</label>
+            </value>
+            <value>
+                <fullName>Kommunale internationale skoler</fullName>
+                <default>false</default>
+                <label>Kommunale internationale skoler</label>
+            </value>
+            <value>
+                <fullName>Frie og private internationale skoler</fullName>
+                <default>false</default>
+                <label>Frie og private internationale skoler</label>
+            </value>
+            <value>
+                <fullName>Uddannelsesinstitutioner for unge med særlige behov</fullName>
+                <default>false</default>
+                <label>Uddannelsesinstitutioner for unge med særlige behov</label>
+            </value>
+            <value>
+                <fullName>Dagbehandlingstilbud og behandlingshjem</fullName>
+                <default>false</default>
+                <label>Dagbehandlingstilbud og behandlingshjem</label>
+            </value>
+            <value>
+                <fullName>Kommunale ungdomsskoler og ungdomskostskoler</fullName>
+                <default>false</default>
+                <label>Kommunale ungdomsskoler og ungdomskostskoler</label>
+            </value>
+            <value>
+                <fullName>Library</fullName>
+                <default>false</default>
+                <label>Library</label>
+            </value>
+            <value>
+                <fullName>Municipality</fullName>
+                <default>false</default>
+                <label>Municipality</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Folkeskoler</fullName>
+                <default>false</default>
+                <label>Folkeskoler</label>
+            </value>
+            <value>
+                <fullName>Grundskola</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Grundskola</label>
+            </value>
+            <value>
+                <fullName>Gymnasieskola</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gymnasieskola</label>
+            </value>
+            <value>
+                <fullName>Kommunal vuxenutbildning</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kommunal vuxenutbildning</label>
+            </value>
+            <value>
+                <fullName>Religös friskola</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Religös friskola</label>
+            </value>
+            <value>
+                <fullName>Specialskola</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Specialskola</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewed_Subs_Missing__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Count of Quote Lines marked as &quot;Renewal&quot; where there is no value in &quot;Renewed Subscription&quot;</inlineHelpText>
+    <label>Renewed Subs Missing</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Sales_Type_Code__c</field>
+        <operation>equals</operation>
+        <value>SALE-RESALE</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Renewed_Subscription_WF__c</field>
+        <operation>equals</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

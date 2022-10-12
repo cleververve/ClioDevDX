@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inbound Call - Trial Request</fullName>
+                <default>false</default>
+                <label>Inbound Call - Trial Request</label>
+            </value>
+            <value>
+                <fullName>Trial Subscription</fullName>
+                <default>false</default>
+                <label>Web Form - Trial Subscription</label>
+            </value>
+            <value>
+                <fullName>Sales Prospecting</fullName>
+                <default>false</default>
+                <label>Sales Prospecting</label>
+            </value>
+            <value>
+                <fullName>Existing Customer</fullName>
+                <default>false</default>
+                <label>Existing Customer</label>
+            </value>
+            <value>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+                <label>Customer Event</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Price Request</fullName>
+                <default>false</default>
+                <label>Web Form - Price Request</label>
+            </value>
+            <value>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+                <label>Trade Show</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Employee Referral</label>
+            </value>
+            <value>
+                <fullName>Google AdWords</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Google AdWords</label>
+            </value>
+            <value>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Purchased List</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

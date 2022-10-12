@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricebook_Mismatch</fullName>
+    <active>true</active>
+    <description>Pricebook Mismatch on Quote and Opportunity.
+1. Compare Forecasted Amount Vs. Total Order Value.
+2. Check Opportunity Products - Delete if necessary.
+3. Update Opportunity Pricebook.
+4. Calculate Quote.</description>
+    <errorConditionFormula>AND(
+    Pricebook2Id != 
+    SBQQ__PrimaryQuote__r.SBQQ__PriceBook__c ,
+    
+    ISPICKVAL( StageName , &quot;Closed Won&quot;)
+    )</errorConditionFormula>
+    <errorMessage>Pricebook Mismatch on Quote and Opportunity.
+1. Compare Forecasted Amount Vs. Total Order Value.
+2. Check Opportunity Products - Delete if necessary.
+3. Update Opportunity Pricebook.
+4. Calculate Quote.</errorMessage>
+</ValidationRule>

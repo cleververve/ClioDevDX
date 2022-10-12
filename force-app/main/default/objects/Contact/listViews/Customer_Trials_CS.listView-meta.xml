@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Trials_CS</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Lead_Source_2__c</columns>
+    <columns>mkto71_Lead_Score__c</columns>
+    <columns>Last_Trial_Date__c</columns>
+    <columns>Trial_message_from_Marketo__c</columns>
+    <columns>ACCOUNT.OWNER.FIRST_NAME</columns>
+    <columns>Account.Municipality__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.LEAD_SOURCE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account.Market__c</field>
+        <operation>equals</operation>
+        <value>Sweden</value>
+    </filters>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Account.Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>Success,CSS,CS,Sales</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Customer</value>
+    </filters>
+    <filters>
+        <field>Lead_Source_2__c</field>
+        <operation>equals</operation>
+        <value>Inbound Call - Trial Request,Trial Subscription,Price Request</value>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <label>Customer Trials - CS</label>
+</ListView>

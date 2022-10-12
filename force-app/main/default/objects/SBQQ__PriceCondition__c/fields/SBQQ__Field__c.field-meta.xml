@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field on Quote Line or Product Option object that is evaluated by this condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the field that should contain the value you enter in the Value field.</inlineHelpText>
+    <label>Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__Object__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Code</fullName>
+                <default>false</default>
+                <label>Product Code</label>
+            </value>
+            <value>
+                <fullName>Clio_MinimumPrice__c</fullName>
+                <default>false</default>
+                <label>Clio_MinimumPrice__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Quantity__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Quantity__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__EffectiveQuantity__c</fullName>
+                <default>false</default>
+                <label>SBQQ__EffectiveQuantity__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__PricingMethod__c</fullName>
+                <default>false</default>
+                <label>SBQQ__PricingMethod__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ProrateMultiplier__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ProrateMultiplier__c</label>
+            </value>
+            <value>
+                <fullName>Bill_To_Account__c</fullName>
+                <default>false</default>
+                <label>Bill_To_Account__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__PartnerDiscount__c</fullName>
+                <default>false</default>
+                <label>SBQQ__PartnerDiscount__c</label>
+            </value>
+            <value>
+                <fullName>Created_Before_Prorated_Discount_Amount__c</fullName>
+                <default>false</default>
+                <label>Created_Before_Prorated_Discount_Amount__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Discount__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Discount__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Type__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Type__c</label>
+            </value>
+            <value>
+                <fullName>Migrated_Subscription_Id__c</fullName>
+                <default>false</default>
+                <label>Migrated_Subscription_Id__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ListTotal__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ListTotal__c</label>
+            </value>
+            <value>
+                <fullName>Minimum_Price_Active__c</fullName>
+                <default>false</default>
+                <label>Minimum_Price_Active__c</label>
+            </value>
+            <value>
+                <fullName>Option_Product_Code__c</fullName>
+                <default>false</default>
+                <label>Option_Product_Code__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__SubscriptionTerm__c</fullName>
+                <default>false</default>
+                <label>SBQQ__SubscriptionTerm__c</label>
+            </value>
+            <value>
+                <fullName>Subscription_Is_Renewed__c</fullName>
+                <default>false</default>
+                <label>Subscription_Is_Renewed__c</label>
+            </value>
+            <value>
+                <fullName>Opportunity_Stage__c</fullName>
+                <default>false</default>
+                <label>Opportunity_Stage__c</label>
+            </value>
+            <value>
+                <fullName>Clio_renewed_contract__c</fullName>
+                <default>false</default>
+                <label>Clio_renewed_contract__c</label>
+            </value>
+            <value>
+                <fullName>CurrencyIsoCode</fullName>
+                <default>false</default>
+                <label>CurrencyIsoCode</label>
+            </value>
+            <value>
+                <fullName>Relevant_Grade__c</fullName>
+                <default>false</default>
+                <label>Relevant_Grade__c</label>
+            </value>
+            <value>
+                <fullName>DKK_Qty_from_account_applied__c</fullName>
+                <default>false</default>
+                <label>DKK_Qty_from_account_applied__c</label>
+            </value>
+            <value>
+                <fullName>DKK_Prorate_Disc_Amt_applied__c</fullName>
+                <default>false</default>
+                <label>DKK_Prorate_Disc_Amt_applied__c</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Bill_To_Account__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>SBQQ__PartnerDiscount__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Created_Before_Prorated_Discount_Amount__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__Discount__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>SBQQ__Type__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>SBQQ__SubscriptionTerm__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Opportunity_Stage__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Clio_renewed_contract__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>CurrencyIsoCode</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Product Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Clio_MinimumPrice__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__Quantity__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__EffectiveQuantity__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__PricingMethod__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__ProrateMultiplier__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Migrated_Subscription_Id__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__ListTotal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Minimum_Price_Active__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Option_Product_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Subscription_Is_Renewed__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Relevant_Grade__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>DKK_Qty_from_account_applied__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>DKK_Prorate_Disc_Amt_applied__c</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

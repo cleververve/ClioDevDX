@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Renewal_Cancelled_Contract__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Fill-in the date when the customer decided to terminate the Auto Renewal clause.</inlineHelpText>
+    <label>Auto Renewal Cancelled (Contract)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Municipalities_SE</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>Implementation_Coordinator__c</columns>
+    <columns>DPA__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>municipalityaccount__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Market__c</field>
+        <operation>equals</operation>
+        <value>Sweden</value>
+    </filters>
+    <filters>
+        <field>Implementation_Coordinator__c</field>
+        <operation>contains</operation>
+    </filters>
+    <label>Municipalities SE</label>
+</ListView>

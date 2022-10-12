@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_cant_be_modified_after_Won_Oppy</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+PRIORVALUE( Opportunity_Stage__c ) = &quot;Closed Won&quot;,
+NOT(OR(
+$Profile.Id = &quot;00e3W000000LqpP&quot;,
+$Profile.Id = &quot;00e1t000001YBXx&quot;))
+)</errorConditionFormula>
+    <errorMessage>You can&apos;t modify this Quote because the Opportunity is Closed / Won.</errorMessage>
+</ValidationRule>

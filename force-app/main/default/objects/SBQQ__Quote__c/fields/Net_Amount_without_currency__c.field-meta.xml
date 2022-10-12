@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Net_Amount_without_currency__c</fullName>
+    <description>- Formula that reflect the Net Amount without the currency: field used in the &quot;approval Process&quot; definition to avoid Currency issues.
+- Not used on any Layout, only for Approval Process criteria</description>
+    <externalId>false</externalId>
+    <formula>SBQQ__NetAmount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Net Amount (without currency)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

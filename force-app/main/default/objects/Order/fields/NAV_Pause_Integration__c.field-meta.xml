@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAV_Pause_Integration__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If this field is NOT BLANK, the Order and Invoice Lines WILL NOT be sent to NAV</inlineHelpText>
+    <label>NAV Pause Integration</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

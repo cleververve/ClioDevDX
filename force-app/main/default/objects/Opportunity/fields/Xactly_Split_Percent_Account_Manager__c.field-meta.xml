@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Xactly_Split_Percent_Account_Manager__c</fullName>
+    <defaultValue>1.00</defaultValue>
+    <description>Used for Xactly calculations in circumstances when a deal is split.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>% of deal allocated to Account Manager when opportunity is split. Default value is 100%</inlineHelpText>
+    <label>Split Percent % - Account Manager</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

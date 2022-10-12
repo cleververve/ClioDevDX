@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Type__c</fullName>
+    <description>Primary: Clones existing Contract and Subscriptions without connecting the new Contract to a existing one.
+
+Delivery: Used for municipality deals or deals where multiple schools will have access to the purchased subscriptions. Deep clone of contract and subscriptions. Connects the cloned contract to an primary contract.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Primary: Clones existing Contract and Subscriptions without connecting the new Contract to a existing one.
+
+Delivery: Deep clone for municipality deals or deals where multiple schools will have access to purchased subscriptions on a common order.</inlineHelpText>
+    <label>Contract Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+                <label>Delivery</label>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <default>true</default>
+                <label>Primary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

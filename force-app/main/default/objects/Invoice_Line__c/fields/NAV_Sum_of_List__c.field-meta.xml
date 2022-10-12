@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAV_Sum_of_List__c</fullName>
+    <description>NAV integration - Temporary fix to integration fail due to min price causing Partner price &gt; List Price</description>
+    <externalId>false</externalId>
+    <label>Sum of List</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Opportunity_Partners</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Marketing_Amount__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owner_Role__c</field>
+        <operation>equals</operation>
+        <value>Partnership Manager,Partner SE,Partner DK,Partnership Business Developer</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/2/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>notContain</operation>
+        <value>Renewal Opportunity,Amendment for contract</value>
+    </filters>
+    <label>All Opportunity - Partners</label>
+    <sharedTo>
+        <role>Admin</role>
+        <role>Partner_DK</role>
+        <role>Partner_SE</role>
+        <role>Partnership_Manager</role>
+    </sharedTo>
+</ListView>

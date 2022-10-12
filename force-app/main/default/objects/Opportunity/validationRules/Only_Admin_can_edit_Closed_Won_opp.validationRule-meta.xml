@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Admin_can_edit_Closed_Won_opp</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(PRIORVALUE(StageName),&quot;Closed Won&quot;),
+NOT($Profile.Id = &quot;00e1t000001YBXx&quot;),
+NOT($Profile.Id = &quot;00e3W000000LqpP&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Only Deal Desk can edit closed opportunity, send a chatter to @dealdesk if you have a question regarding this opportunity</errorMessage>
+</ValidationRule>

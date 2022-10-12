@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trials_SE_ALL</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>First_Trial_Date__c</columns>
+    <columns>Last_Trial_Date__c</columns>
+    <columns>Account_Zero_Id__c</columns>
+    <columns>Contact_Zero_External_Id__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>MQL,Recycle,Fake</value>
+    </filters>
+    <filters>
+        <field>LEAD.CONVERTED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>6/1/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Marketo_Sync__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>LEAD.CONVERTED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.COUNTRY</field>
+        <operation>equals</operation>
+        <value>Sweden,SE</value>
+    </filters>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Trial_Lead</value>
+    </filters>
+    <label>Trials SE - ALL</label>
+</ListView>

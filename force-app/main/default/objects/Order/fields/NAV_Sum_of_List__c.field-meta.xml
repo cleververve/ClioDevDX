@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAV_Sum_of_List__c</fullName>
+    <description>NAV integration - Temporary fix to integration fail due to min price causing Partner price &gt; List Price</description>
+    <externalId>false</externalId>
+    <label>Sum of List</label>
+    <summarizedField>Invoice_Line__c.NAV_Sum_of_List__c</summarizedField>
+    <summaryFilterItems>
+        <field>Invoice_Line__c.NAV_Sum_of_List__c</field>
+        <operation>notEqual</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>Invoice_Line__c.Order__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

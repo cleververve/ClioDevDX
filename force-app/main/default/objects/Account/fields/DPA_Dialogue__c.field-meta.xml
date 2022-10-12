@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DPA_Dialogue__c</fullName>
+    <description>Is DPA discussion ongoing with customer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is DPA discussion ongoing with customer</inlineHelpText>
+    <label>DPA Dialogue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

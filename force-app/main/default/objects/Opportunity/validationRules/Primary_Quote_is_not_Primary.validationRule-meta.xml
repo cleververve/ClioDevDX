@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Quote_is_not_Primary</fullName>
+    <active>true</active>
+    <description>The Primary Quote on this Opportunity does not have the field &quot;Primary&quot; marked as TRUE on the Quote.</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( SBQQ__PrimaryQuote__c )),
+SBQQ__PrimaryQuote__r.SBQQ__Primary__c=FALSE,
+OR(
+ISPICKVAL( StageName,&quot;Deal Desk&quot;),
+ISPICKVAL( StageName,&quot;Closed Won&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>To resolve this issue, go to the Primary Quote and check the field &quot;Primary&quot; on the Quote. Sincerely, Deal Desk</errorMessage>
+</ValidationRule>

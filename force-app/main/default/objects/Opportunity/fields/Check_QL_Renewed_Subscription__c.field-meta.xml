@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_QL_Renewed_Subscription__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if all Quote Lines, where type is Renewal, has a value in Renewed Subscription (or Upgraded Subscription in Amendments).</inlineHelpText>
+    <label>Check_QL Renewed Subscription</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

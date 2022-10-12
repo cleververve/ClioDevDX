@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rune_and_Simon_Open_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notEqual</operation>
+        <value>Ordrebekræftelse fra Clio</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Legal,Termination_Received</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Deal_Desk_Case</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed,Backlog</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>Rune Mad,Simon Sand Kristensen</value>
+    </filters>
+    <label>Rune and Simon - Open Cases</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

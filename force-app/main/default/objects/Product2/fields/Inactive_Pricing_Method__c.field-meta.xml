@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inactive_Pricing_Method__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Use to flag those products with Block pricing that have been retired in conjunction with the 2022 price list</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use to flag those products with Block pricing that have been retired in conjunction with the 2022 price list</inlineHelpText>
+    <label>Inactive Pricing Method</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

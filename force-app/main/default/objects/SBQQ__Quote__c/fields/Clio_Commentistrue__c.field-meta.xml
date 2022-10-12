@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Commentistrue__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used to have the Comments field as mandatory in the Quote Template. 
+It is Checked or not thanks to 2 workflow:  Comment is true, Comment is false</description>
+    <externalId>false</externalId>
+    <label>Comment is true</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

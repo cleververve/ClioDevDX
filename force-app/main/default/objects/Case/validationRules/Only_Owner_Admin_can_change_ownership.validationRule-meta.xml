@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Owner_Admin_can_change_ownership</fullName>
+    <active>true</active>
+    <description>This validation rule is used to restrict ownership change to the object owner or admins.</description>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+$User.Id &lt;&gt; PRIORVALUE(OwnerId),
+$Profile.Id &lt;&gt; &apos;00e1t000001YBXx&apos;,
+ $Profile.Id  &lt;&gt; &apos;00e3W000000LqpP&apos;
+)</errorConditionFormula>
+    <errorMessage>You need to be the Owner of this record or an Administrator to change the Ownership of this record.</errorMessage>
+</ValidationRule>

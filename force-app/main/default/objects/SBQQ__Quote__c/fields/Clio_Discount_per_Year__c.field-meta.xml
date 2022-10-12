@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Discount_per_Year__c</fullName>
+    <description>Discount per year on the global quote</description>
+    <externalId>false</externalId>
+    <label>Total Customer ACV Discount</label>
+    <summarizedField>SBQQ__QuoteLine__c.Customer_ACV_Discount__c</summarizedField>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

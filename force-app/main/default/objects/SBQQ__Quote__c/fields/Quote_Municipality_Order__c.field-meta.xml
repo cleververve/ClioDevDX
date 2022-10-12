@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Municipality_Order__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+OR(
+AND(  ISPICKVAL (CurrencyIsoCode, &quot;DKK&quot;),
+OR (  SBQQ__Account__r.municipalityaccount__c = TRUE,  Bill_To_Account__r.municipalityaccount__c  = TRUE,  Municipality_Order_Special__c = TRUE ) ),
+AND ( ISPICKVAL (CurrencyIsoCode, &quot;SEK&quot;), SBQQ__Account__r.municipalityaccount__c = TRUE)), TRUE, FALSE)</formula>
+    <label>Municipality Order</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

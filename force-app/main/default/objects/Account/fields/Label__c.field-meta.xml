@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Label__c</fullName>
+    <description>Use for DK to label Municipality</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use for DK to label Municipality</inlineHelpText>
+    <label>Label</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kører godt</fullName>
+                <default>false</default>
+                <label>Kører godt</label>
+            </value>
+            <value>
+                <fullName>Venter på SKI</fullName>
+                <default>false</default>
+                <label>Venter på SKI</label>
+            </value>
+            <value>
+                <fullName>Drop-In klar</fullName>
+                <default>false</default>
+                <label>Drop-In klar</label>
+            </value>
+            <value>
+                <fullName>Opmærksomhed!!</fullName>
+                <default>false</default>
+                <label>Opmærksomhed!!</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Decentral</fullName>
+                <default>false</default>
+                <label>Decentral</label>
+            </value>
+            <value>
+                <fullName>Alinea kommune</fullName>
+                <default>false</default>
+                <label>Alinea kommune</label>
+            </value>
+            <value>
+                <fullName>Udløb snart</fullName>
+                <default>false</default>
+                <label>Udløb snart</label>
+            </value>
+            <value>
+                <fullName>ELITEkommune</fullName>
+                <default>false</default>
+                <label>ELITEkommune</label>
+            </value>
+            <value>
+                <fullName>Gyldendal kommune</fullName>
+                <default>false</default>
+                <label>Gyldendal kommune</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Unit_Price_per_Year__c</fullName>
+    <description>Used for Läromedia order confirmation email.</description>
+    <externalId>false</externalId>
+    <formula>If(
+SBQQ__Quantity__c !=0, Customer_ACV__c /   SBQQ__Quantity__c, 
+Customer_ACV__c /  SBQQ__EffectiveQuantity__c 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Unit Price per Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

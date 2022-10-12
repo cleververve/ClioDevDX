@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trials_Prospecting_Sales_DK</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Trial_message_from_Marketo__c</columns>
+    <columns>Lead_Source_2__c</columns>
+    <columns>mkto71_Lead_Score__c</columns>
+    <columns>First_Trial_Date__c</columns>
+    <columns>Last_Trial_Date__c</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>Labels__c</columns>
+    <columns>Account.Municipality_Name__c</columns>
+    <columns>ACCOUNT.OWNER.FIRST_NAME</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Prospect</value>
+    </filters>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Account.Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>Sales Management DK,Sales Team DK</value>
+    </filters>
+    <filters>
+        <field>Account.Market__c</field>
+        <operation>equals</operation>
+        <value>Denmark</value>
+    </filters>
+    <filters>
+        <field>Lead_Source_2__c</field>
+        <operation>equals</operation>
+        <value>Trial Subscription,Price Request</value>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Recycle,Rejected,Fake</value>
+    </filters>
+    <label>Trials Prospecting - Sales DK</label>
+    <sharedTo>
+        <group>Sales_Denmark</group>
+        <role>Sales_Management_DK</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_with_Renewals_Next_Year</fullName>
+    <booleanFilter>(1 OR 2) and 3</booleanFilter>
+    <columns>Municipality_Name__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Implementation_Coordinator__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>Subscription_ACV__c</columns>
+    <columns>ACV_Expiring_this_year__c</columns>
+    <columns>ACV_Expiring_Next_Year__c</columns>
+    <columns>Sales_Impl_Meeting__c</columns>
+    <columns>Next_Step__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACV_Expiring_this_year__c</field>
+        <operation>greaterThan</operation>
+        <value>SEK 0</value>
+    </filters>
+    <filters>
+        <field>ACV_Expiring_Next_Year__c</field>
+        <operation>greaterThan</operation>
+        <value>SEK 0</value>
+    </filters>
+    <filters>
+        <field>Market__c</field>
+        <operation>notEqual</operation>
+        <value>Denmark</value>
+    </filters>
+    <label>Accounts with Upcoming Renewals - SE</label>
+    <sharedTo>
+        <role>Country_Manager_DK</role>
+        <role>Customer_Success_Specialist</role>
+        <role>Implementation_SE</role>
+        <role>Sales_Management_SE</role>
+        <role>Sales_Team_SE</role>
+    </sharedTo>
+</ListView>

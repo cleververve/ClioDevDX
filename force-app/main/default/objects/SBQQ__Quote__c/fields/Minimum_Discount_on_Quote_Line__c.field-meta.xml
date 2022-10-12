@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_Discount_on_Quote_Line__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Finds the minimum discount on the quote.</inlineHelpText>
+    <label>Minimum Discount on Quote Line</label>
+    <summarizedField>SBQQ__QuoteLine__c.Total_Discount_incl_Partner__c</summarizedField>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

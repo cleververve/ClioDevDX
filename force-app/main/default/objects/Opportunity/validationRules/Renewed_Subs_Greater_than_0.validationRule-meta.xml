@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewed_Subs_Greater_than_0</fullName>
+    <active>true</active>
+    <description>Cannot set renewal opp to Closed Won if there is missing a Value on the Renewed Subscription field of Quote Lines.</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( SBQQ__PrimaryQuote__c )),
+ISNULL( Close_Date_Stamp__c ),
+ Renewed_Subs_Missing__c != 0,
+ISPICKVAL(StageName, &apos;Closed Won&apos;)
+)</errorConditionFormula>
+    <errorMessage>You can&apos;t set a Opp Type &quot;Renewal&quot; or &quot;Renewal + Upsale&quot; to Closed Won if there are Quote Lines where Renwed Subscription is missing. Please review if the Opp Type is correct or if you should add the Renewed Subscription on the QL. Deal Desk.</errorMessage>
+</ValidationRule>

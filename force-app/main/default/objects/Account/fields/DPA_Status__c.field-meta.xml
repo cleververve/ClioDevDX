@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DPA_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If blank, no DPA signed.
+If not blank, the DPA has either been signed by municipality or school.</inlineHelpText>
+    <label>DPA Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DPA signed by municipality</fullName>
+                <default>false</default>
+                <label>DPA signed by municipality</label>
+            </value>
+            <value>
+                <fullName>DPA signed by school</fullName>
+                <default>false</default>
+                <label>DPA signed by school</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

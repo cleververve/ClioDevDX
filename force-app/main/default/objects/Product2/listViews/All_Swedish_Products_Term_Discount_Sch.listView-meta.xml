@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Swedish_Products_Term_Discount_Sch</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Level__c</columns>
+    <columns>Bundle__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <columns>SBQQ__SubscriptionType__c</columns>
+    <columns>SBQQ__TermDiscountSchedule__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>equals</operation>
+        <value>SE</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Swedish Products - Term Discount Sch</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

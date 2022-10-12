@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunities_Won__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for NAV integration to know when to create an Account in NAV.
+Populated by process builder: Update Opportunities Won on Account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked: this account has had an Opportunity marked as Won. Account sent to Navision
+If unchecked: no Opportunity has been won.</inlineHelpText>
+    <label>Opportunities Won</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

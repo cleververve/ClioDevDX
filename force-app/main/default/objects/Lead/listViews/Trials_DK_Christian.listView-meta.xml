@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trials_DK_Christian</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>DK_Trial_request_portals__c</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>MQL,Recycle,Fake</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>Aalborg,Aarhus,Viborg,Struer,Skive,Silkeborg,Randers,Lemvig,Odder,Morsø,Fanø,Sydslevig,Læsø,Billund</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>Egedal,Fredensborg,Ishøj,Vallensbæk,Glostrup,Holbæk,Vordingborg,Slagelse,Guldborgsund,Lolland,Kalundborg,Ringsted,Næstved,Kerteminde,Nyborg,Nordfyn,Svendborg,Langeland,Faaborg-Midtfyn,Ærø,Assens</value>
+    </filters>
+    <label>Trials DK - Christian</label>
+    <sharedTo>
+        <group>Sales_Denmark</group>
+    </sharedTo>
+</ListView>

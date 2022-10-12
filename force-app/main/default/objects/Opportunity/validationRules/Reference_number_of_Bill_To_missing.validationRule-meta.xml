@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_number_of_Bill_To_missing</fullName>
+    <active>true</active>
+    <description>IF Bill-To Account has &quot;Reference Number Check&quot; = TRUE on Account page, then AM needs to include a reference number / PO number on the Quote before closing a deal. Not applicable for Amendments.</description>
+    <errorConditionFormula>AND ( 
+     NOT(ISPICKVAL( Type , &apos;Amendment&apos;)), 
+     NOT(ISBLANK( SBQQ__PrimaryQuote__c)),
+     ISBLANK( SBQQ__PrimaryQuote__r.Reference__c ),
+     SBQQ__PrimaryQuote__r.Reference_Check_of_Bill_To__c = TRUE,
+     OR (
+         ISPICKVAL(StageName, &apos;Closed Won&apos;),
+         ISPICKVAL(StageName, &apos;Deal Desk&apos;)
+        )
+     )</errorConditionFormula>
+    <errorMessage>The Bill-To account requires a Reference Number to be included on the invoice.
+
+Please add the number on the Quote page on the &quot;Reference&quot; field before setting the Opportunities Stage to Deal Desk / Closed Won.
+
+Yours sincerely, Deal Desk.</errorMessage>
+</ValidationRule>

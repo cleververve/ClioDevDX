@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Auto_Renewal__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Checkbox created to give users possibility to highlight if a DK Order is not going to be Auto Renewed. Note: as for the process in Salesforce a Renewal Opportunity is created either way.</description>
+    <externalId>false</externalId>
+    <label>Auto Renewal</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

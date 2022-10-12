@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Amount_Incl_VAT_Sum__c</fullName>
+    <description>Sum of Amount including VAT on the Sales Lines. Use this field if the Total Amount Including VAT is not available on the Sales Header in the ERP system.</description>
+    <externalId>false</externalId>
+    <label>Total Amount Incl. VAT</label>
+    <summarizedField>SalesLine__c.Amount_Including_VAT__c</summarizedField>
+    <summaryForeignKey>SalesLine__c.Sales_Header__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

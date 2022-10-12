@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_invoice_date_is_blank</fullName>
+    <active>false</active>
+    <description>&quot;First invoice date&quot; is empty in Primary Quote.
+To solve this: Click on: &quot;Primary Quote&quot; ex: Q-123456 &gt; Update &quot;First invoice date&quot; in QUOTE &gt; Save</description>
+    <errorConditionFormula>AND(
+CASE(StageName,
+&quot;Deal Desk&quot;,1,
+0)=1,
+ISBLANK (SBQQ__PrimaryQuote__r.Clio_First_invoice_date__c )
+)</errorConditionFormula>
+    <errorDisplayField>SBQQ__PrimaryQuote__c</errorDisplayField>
+    <errorMessage>&quot;First invoice date&quot; is empty in Primary Quote.
+To solve this:
+1. Click on Cancel
+2. Click on: &quot;Primary Quote&quot; ex: Q-123456
+3. Update &quot;First invoice date&quot; in QUOTE
+4. Click &quot;Save&quot; button</errorMessage>
+</ValidationRule>

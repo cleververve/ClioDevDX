@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Renewal_Upsale__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Check which Quote Line should have a value in &quot;Renewed Subscription&quot; by looking on Subscriptions in Account. You can use the Quote Line quick view for Quotes with many lines.</inlineHelpText>
+    <label>Check Renewal + Upsale</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Framework_Agreement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Introduced to clearly indicate if this is a framework agreement, or a standalone agreement.
+True means that it is a framework agreement.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether this contract is part of a Framework Agreement or not.</inlineHelpText>
+    <label>Framework Agreement</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

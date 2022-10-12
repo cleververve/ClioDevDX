@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin_can_edit_Deal_Desk_stage</fullName>
+    <active>true</active>
+    <description>Only admin can edit deal desk</description>
+    <errorConditionFormula>AND(
+    $Profile.Id = &quot;2F00E1t000000YTFJ&quot;,
+   ISCHANGED(StageName),
+   OR(
+      ISPICKVAL(PRIORVALUE( StageName ), &apos;Deal Desk&apos;)
+))</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Stage is locked in &quot;Deal Desk&quot;, chatter @dealdesk if you want to update information</errorMessage>
+</ValidationRule>

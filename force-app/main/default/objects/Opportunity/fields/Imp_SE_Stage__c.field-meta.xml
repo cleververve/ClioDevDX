@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Imp_SE_Stage__c</fullName>
+    <description>Use for imp se</description>
+    <externalId>false</externalId>
+    <label>Imp SE Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Imp 1</fullName>
+                <default>false</default>
+                <label>Imp 1</label>
+            </value>
+            <value>
+                <fullName>Imp 2</fullName>
+                <default>false</default>
+                <label>Imp 2</label>
+            </value>
+            <value>
+                <fullName>Imp 3</fullName>
+                <default>false</default>
+                <label>Imp 3</label>
+            </value>
+            <value>
+                <fullName>Imp 4</fullName>
+                <default>false</default>
+                <label>Imp 4</label>
+            </value>
+            <value>
+                <fullName>Imp 5</fullName>
+                <default>false</default>
+                <label>Imp 5</label>
+            </value>
+            <value>
+                <fullName>Imp 6</fullName>
+                <default>false</default>
+                <label>Imp 6</label>
+            </value>
+            <value>
+                <fullName>Imp 7</fullName>
+                <default>false</default>
+                <label>Imp 7</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

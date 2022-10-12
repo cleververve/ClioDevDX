@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Band_Locked__c</fullName>
+    <description>Used to take a snapshot of the Revenue band at the beginning of the year.
+Created to capture accounts with this revenue for the 2021 customer segmentation budget.</description>
+    <externalId>false</externalId>
+    <label>Revenue Band Locked</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

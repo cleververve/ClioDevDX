@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portal_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Portal Description</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BH Børnehaveklassen</fullName>
+                <default>false</default>
+                <label>BH Børnehaveklassen</label>
+            </value>
+            <value>
+                <fullName>BI Biologi</fullName>
+                <default>false</default>
+                <label>BI Biologi</label>
+            </value>
+            <value>
+                <fullName>BK-IN Billedkunst – indskoling</fullName>
+                <default>false</default>
+                <label>BK-IN Billedkunst – indskoling</label>
+            </value>
+            <value>
+                <fullName>BK-ME Billedkunst - mellemtrin</fullName>
+                <default>false</default>
+                <label>BK-ME Billedkunst - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>DA-IN Dansk - indskoling</fullName>
+                <default>false</default>
+                <label>DA-IN Dansk - indskoling</label>
+            </value>
+            <value>
+                <fullName>DA-ME Dansk - mellemtrin</fullName>
+                <default>false</default>
+                <label>DA-ME Dansk - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>DA-UD Dansk - udskoling</fullName>
+                <default>false</default>
+                <label>DA-UD Dansk - udskoling</label>
+            </value>
+            <value>
+                <fullName>EN-IN Engelsk - indskoling</fullName>
+                <default>false</default>
+                <label>EN-IN Engelsk - indskoling</label>
+            </value>
+            <value>
+                <fullName>EN-ME Engelsk - mellemtrin</fullName>
+                <default>false</default>
+                <label>EN-ME Engelsk - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>EN-UD Engelsk - udskoling</fullName>
+                <default>false</default>
+                <label>EN-UD Engelsk - udskoling</label>
+            </value>
+            <value>
+                <fullName>FK Fysik/Kemi</fullName>
+                <default>false</default>
+                <label>FK Fysik/Kemi</label>
+            </value>
+            <value>
+                <fullName>GE Geografi</fullName>
+                <default>false</default>
+                <label>GE Geografi</label>
+            </value>
+            <value>
+                <fullName>HD Håndværk og Design</fullName>
+                <default>false</default>
+                <label>HD Håndværk og Design</label>
+            </value>
+            <value>
+                <fullName>HI-ME Historie - mellemtrin</fullName>
+                <default>false</default>
+                <label>HI-ME Historie - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>HI-UD Historie - udskoling</fullName>
+                <default>false</default>
+                <label>HI-UD Historie - udskoling</label>
+            </value>
+            <value>
+                <fullName>ID-IN Idræt - indskoling</fullName>
+                <default>false</default>
+                <label>ID-IN Idræt - indskoling</label>
+            </value>
+            <value>
+                <fullName>ID-ME Idræt - mellemtrin</fullName>
+                <default>false</default>
+                <label>ID-ME Idræt - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>ID-UD Idræt – udskoling</fullName>
+                <default>false</default>
+                <label>ID-UD Idræt – udskoling</label>
+            </value>
+            <value>
+                <fullName>MA-ML Matematik - mellemtrin</fullName>
+                <default>false</default>
+                <label>MA-ML Matematik - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>MA-UD Matematik - udskoling</fullName>
+                <default>false</default>
+                <label>MA-UD Matematik - udskoling</label>
+            </value>
+            <value>
+                <fullName>MK Madkundskab</fullName>
+                <default>false</default>
+                <label>MK Madkundskab</label>
+            </value>
+            <value>
+                <fullName>MU-IN Musik - indskoling</fullName>
+                <default>false</default>
+                <label>MU-IN Musik - indskoling</label>
+            </value>
+            <value>
+                <fullName>MU-ME Musik - mellemtrin</fullName>
+                <default>false</default>
+                <label>MU-ME Musik - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>NT-IN Natur/Teknologi - indskoling</fullName>
+                <default>false</default>
+                <label>NT-IN Natur/Teknologi - indskoling</label>
+            </value>
+            <value>
+                <fullName>NT-ME Natur/Teknologi – mellemtrin</fullName>
+                <default>false</default>
+                <label>NT-ME Natur/Teknologi – mellemtrin</label>
+            </value>
+            <value>
+                <fullName>RE-IN Religion - indskoling</fullName>
+                <default>false</default>
+                <label>RE-IN Religion - indskoling</label>
+            </value>
+            <value>
+                <fullName>RE-ME Religion - mellemtrin</fullName>
+                <default>false</default>
+                <label>RE-ME Religion - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>RE-UD Religion - udskoling</fullName>
+                <default>false</default>
+                <label>RE-UD Religion - udskoling</label>
+            </value>
+            <value>
+                <fullName>SA Samfundsfag</fullName>
+                <default>false</default>
+                <label>SA Samfundsfag</label>
+            </value>
+            <value>
+                <fullName>TY-ME Tysk - mellemtrin</fullName>
+                <default>false</default>
+                <label>TY-ME Tysk - mellemtrin</label>
+            </value>
+            <value>
+                <fullName>TY-UD Tysk - udskoling</fullName>
+                <default>false</default>
+                <label>TY-UD Tysk - udskoling</label>
+            </value>
+            <value>
+                <fullName>TE Teknologiforståelse</fullName>
+                <default>false</default>
+                <label>TE Teknologiforståelse</label>
+            </value>
+            <value>
+                <fullName>QM-TR Træningsøvelser</fullName>
+                <default>false</default>
+                <label>QM-TR Træningsøvelser</label>
+            </value>
+            <value>
+                <fullName>QM-EV Evalueringsopgaver</fullName>
+                <default>false</default>
+                <label>QM-EV Evalueringsopgaver</label>
+            </value>
+            <value>
+                <fullName>QM-PR Prøver</fullName>
+                <default>false</default>
+                <label>QM-PR Prøver</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

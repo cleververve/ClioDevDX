@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_Date_Stamp__c</fullName>
+    <description>Set date with workflow when a opportunity is set as Closed Lost, use for reports and track which quarter this opportunity belongs if opportunity reopens and set to &quot;closed won&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date Stamp when opportunity is set to closed lost,</inlineHelpText>
+    <label>Closed Lost - Date Stamp</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Request_SE</fullName>
+    <booleanFilter>(1 OR 2) and 3 and 4</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>School_Name__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Trial_message_from_Marketo__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <columns>Contact_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lead_Source_2__c</field>
+        <operation>equals</operation>
+        <value>Price Request</value>
+    </filters>
+    <filters>
+        <field>Trial_message_from_Marketo__c</field>
+        <operation>contains</operation>
+        <value>price request</value>
+    </filters>
+    <filters>
+        <field>CONTACT.CURRENCY_ISO_CODE</field>
+        <operation>equals</operation>
+        <value>SEK</value>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Recycle,Fake</value>
+    </filters>
+    <label>Price Request SE</label>
+    <sharedTo>
+        <group>Deal_Desk</group>
+        <group>Sales_Sweden</group>
+        <role>Sales_Management_SE</role>
+    </sharedTo>
+</ListView>

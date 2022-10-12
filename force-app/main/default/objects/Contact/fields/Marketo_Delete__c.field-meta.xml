@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketo_Delete__c</fullName>
+    <description>ISAE 3000 - Used to identify leads that MarCom has tagged as &quot;to delete&quot;</description>
+    <externalId>false</externalId>
+    <label>Marketo Delete</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

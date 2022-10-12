@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Sweden_Org_Number_to_Desk</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISNULL( Close_Date_Stamp__c ),
+OR(
+ISPICKVAL(StageName, &quot;Deal Desk&quot;),
+ISPICKVAL(StageName, &quot;Closed Won&quot;)
+),
+ISPICKVAL(Account.Market__c , &quot;Sweden&quot;),
+NOT(ISNULL(SBQQ__PrimaryQuote__r.Bill_To_Account__c)),
+ISBLANK(  SBQQ__PrimaryQuote__r.Clio_billtoorg__c )
+)</errorConditionFormula>
+    <errorMessage>The &quot;CVR/Org. Number&quot; on the Bill To Account is empty on this Opportunity&apos;s Primary Quote. 
+Please add the Organisation Number on the Bill To Account. You will find this field in the Details section of the Account. Yours sincerely, Deal Desk.</errorMessage>
+</ValidationRule>

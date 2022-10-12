@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_To_Account_Lookup__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Use for hardcoding a different recipient for invoices.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set a different recipient for invoices.</inlineHelpText>
+    <label>Bill-To Account Lookup</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts (Bill-To Account Lookup)</relationshipLabel>
+    <relationshipName>Bill_To_Account_Lookup</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

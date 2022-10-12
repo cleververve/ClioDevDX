@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_billtoorg__c</fullName>
+    <description>Field created to be able to see the Bill To Account information on the Quote Templates. 
+Done this way because HTML can&apos;t connect Quote and Bill to Account info.</description>
+    <externalId>false</externalId>
+    <formula>Bill_To_Account__r.Clio_OrgNumber__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Bill To Account Org Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

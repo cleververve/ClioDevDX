@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_To_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup relationship to the Account that the Invoice shall be sent to. Introduced by JL, to support different customer account(School) with potentially other Account that invoices shall be sent to. 
+This field will often be the same as the Account, otherwise usually the Parent Account or the Municipality.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Account that the invoices shall be sent to.</inlineHelpText>
+    <label>Bill To Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Contracts Where Billed To</relationshipLabel>
+    <relationshipName>ContractsWhereBilledTo</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

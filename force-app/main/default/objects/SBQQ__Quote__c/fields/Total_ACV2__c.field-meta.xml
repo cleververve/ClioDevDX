@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_ACV2__c</fullName>
+    <description>Used to summarize the Total ACV of a quote (amount / year)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ACV is the average value of the contract over a 12-month period. Subscriptions less than 12 month calculate the value of the period less than 12 months.</inlineHelpText>
+    <label>Total Customer ACV</label>
+    <summarizedField>SBQQ__QuoteLine__c.Customer_ACV__c</summarizedField>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

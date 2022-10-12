@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_per_year_is_true__c</fullName>
+    <description>Field to display or not the field in the Quote Template when discount or not (only option under CPQ to have a check box to display conditional field)</description>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(Clio_Discount_per_Year__c ) == &apos;0&apos;, false, true)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Discount per year is true</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

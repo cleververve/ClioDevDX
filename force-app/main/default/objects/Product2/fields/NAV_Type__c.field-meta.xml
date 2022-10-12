@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAV_Type__c</fullName>
+    <description>NAV intergration</description>
+    <externalId>false</externalId>
+    <inlineHelpText>NAV intergration</inlineHelpText>
+    <label>NAV Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Item</fullName>
+                <default>true</default>
+                <label>Item</label>
+            </value>
+            <value>
+                <fullName>G/L Account</fullName>
+                <default>false</default>
+                <label>G/L Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

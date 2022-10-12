@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>DK_Trial_request_portals__c</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.COUNTRY</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Last_Trial_Date__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Account_Zero_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CONVERTED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Recycle,Fake</value>
+    </filters>
+    <label>My Open Leads</label>
+</ListView>

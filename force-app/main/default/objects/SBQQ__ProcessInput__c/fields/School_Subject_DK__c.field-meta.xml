@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Subject_DK__c</fullName>
+    <description>Custom field used in the &apos;Denmark Quote Process&apos; to filter out products</description>
+    <externalId>false</externalId>
+    <label>School Subject DK</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Naturfagspakken</fullName>
+                <default>false</default>
+                <label>Naturfagspakken</label>
+            </value>
+            <value>
+                <fullName>Kulturfagspakken</fullName>
+                <default>false</default>
+                <label>Kulturfagspakken</label>
+            </value>
+            <value>
+                <fullName>Sprogfaspakken</fullName>
+                <default>false</default>
+                <label>Sprogfaspakken</label>
+            </value>
+            <value>
+                <fullName>Dansk</fullName>
+                <default>false</default>
+                <label>Dansk</label>
+            </value>
+            <value>
+                <fullName>Quiz</fullName>
+                <default>false</default>
+                <label>Quiz</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

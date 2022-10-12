@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Yearly_Order_Value_5_Year_Discount__c</fullName>
+    <externalId>false</externalId>
+    <formula>Yearly_Order_Value__c * 0.80</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Yearly Order Value - 20% discount</inlineHelpText>
+    <label>Yearly Order Value (5 Year Discount)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

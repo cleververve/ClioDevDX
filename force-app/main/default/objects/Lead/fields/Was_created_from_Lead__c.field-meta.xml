@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Was_created_from_Lead__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>field created to simplify visibility on opportunity i.e. to be able to quickly see if Opportunity was created from Lead or not.
+Field might not be needed so evaluate and delete if needed / Victoria</description>
+    <externalId>false</externalId>
+    <label>Was created from Lead</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

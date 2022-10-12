@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Subscription__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>List of Subscribtions under an account - related to this product only</description>
+    <externalId>false</externalId>
+    <label>Account Subscription</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>SBQQ__Subscription__c.SBQQ__Account__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Account__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>SBQQ__Subscription__c.SBQQ__Product__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Product__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__Subscription__c</referenceTo>
+    <relationshipName>ProductOverview</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

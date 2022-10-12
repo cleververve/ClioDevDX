@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule_Renewal_Count</fullName>
+    <active>true</active>
+    <description>Opportunity Type = Renewal; New &amp; Upsale Count should equal 0. If New &amp; Upsale Count NOT EQUAL 0, cannot closed won.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(StageName,&quot;Closed Won&quot;),
+New_and_Upsale_Count__c != 0,
+ISNULL( Close_Date_Stamp__c ),
+ISPICKVAL(Type,&quot;Renewal&quot;)
+)</errorConditionFormula>
+    <errorMessage>This Opportunity Type = Renewal.
+
+However, there are some Quote Line products marked as New or Upsale.
+
+You need to update the Quote, Quote Line products or the Opportunity Type to resolve this issue.</errorMessage>
+</ValidationRule>

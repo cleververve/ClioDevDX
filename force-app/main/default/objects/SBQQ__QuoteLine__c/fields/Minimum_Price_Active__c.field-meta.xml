@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_Price_Active__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+AND(
+SBQQ__Quantity__c &gt; 0,
+Clio_MinimumPrice__c &gt; 0,
+(SBQQ__OriginalPrice__c * SBQQ__Quantity__c) &lt; Clio_MinimumPrice__c),
+AND(
+SBQQ__Quantity__c = 0,
+Clio_MinimumPrice__c &gt; 0,
+(SBQQ__OriginalPrice__c * SBQQ__Quantity__c*-1) &lt; Clio_MinimumPrice__c)
+),TRUE,
+FALSE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Minimum Price Active</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

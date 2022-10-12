@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_GLN_Number__c</fullName>
+    <description>Reference number for electronic invoicing.
+GLN (8 characters) for Swedish accounts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use for Finance (SE), GLN (Global Location Number)
+EAN (DK) electronic field</inlineHelpText>
+    <label>EAN/GLN-number</label>
+    <length>13</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

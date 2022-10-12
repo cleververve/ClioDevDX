@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Desk_Case</fullName>
+    <active>true</active>
+    <businessProcess>Deal Desk Case</businessProcess>
+    <description>Deal Desk Case</description>
+    <label>Deal Desk Case</label>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chatter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Comment related to Won Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delete Record</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance DK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance SE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR Skolon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Läromedia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal Swap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report %2F dashboard request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Termination_Received</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

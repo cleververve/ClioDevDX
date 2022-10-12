@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Auto_Renew__c</fullName>
+    <externalId>false</externalId>
+    <formula>SBQQ__RenewedContract__r.Clio_Auto_Renewal__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Does Contract being renewed have Auto Renew?</inlineHelpText>
+    <label>Renewed Contract has Auto Renew?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

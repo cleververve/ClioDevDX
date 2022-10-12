@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_Comments__c</fullName>
+    <description>Field created instead of &quot;notes&quot;, to be able to have a formula field no hide the Kommentar section if empty on quote templates</description>
+    <externalId>false</externalId>
+    <label>Comments</label>
+    <length>5000</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

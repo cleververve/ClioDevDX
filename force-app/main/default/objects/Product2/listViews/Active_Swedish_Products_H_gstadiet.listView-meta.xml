@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Swedish_Products_H_gstadiet</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Product_Bundle__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>SBQQ__SubscriptionType__c</columns>
+    <columns>Product_Type__c</columns>
+    <columns>NAV_Type__c</columns>
+    <columns>Navision_Prod_No__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>SBQQ__SortOrder__c</columns>
+    <columns>SBQQ__PriceEditable__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>equals</operation>
+        <value>SE</value>
+    </filters>
+    <filters>
+        <field>Product_Type__c</field>
+        <operation>equals</operation>
+        <value>Clio Online Portal</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Level__c</field>
+        <operation>equals</operation>
+        <value>Högstadiet</value>
+    </filters>
+    <filters>
+        <field>Product_Bundle__c</field>
+        <operation>equals</operation>
+        <value>Individual_Product</value>
+    </filters>
+    <label>Active Swedish Products - Högstadiet</label>
+</ListView>

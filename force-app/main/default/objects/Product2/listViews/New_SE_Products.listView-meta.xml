@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_SE_Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>NAV_Type__c</columns>
+    <columns>NAV_Prod_No__c</columns>
+    <columns>Product_No__c</columns>
+    <columns>Relevant_Grade__c</columns>
+    <columns>Relevant_Grade_Picklist__c</columns>
+    <columns>SBQQ__SubscriptionPricing__c</columns>
+    <columns>SBQQ__SubscriptionTerm__c</columns>
+    <columns>SBQQ__SubscriptionType__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>2/15/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>equals</operation>
+        <value>SE</value>
+    </filters>
+    <label>New SE Products</label>
+</ListView>

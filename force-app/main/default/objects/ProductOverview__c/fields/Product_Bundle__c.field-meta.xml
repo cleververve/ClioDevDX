@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Bundle__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Bundle</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Naturfagspakken</fullName>
+                <default>false</default>
+                <label>Naturfagspakken</label>
+            </value>
+            <value>
+                <fullName>Kulturfagspakken</fullName>
+                <default>false</default>
+                <label>Kulturfagspakken</label>
+            </value>
+            <value>
+                <fullName>Sprogfagspakken</fullName>
+                <default>false</default>
+                <label>Sprogfagspakken</label>
+            </value>
+            <value>
+                <fullName>Valfagspakken</fullName>
+                <default>false</default>
+                <label>Valfagspakken</label>
+            </value>
+            <value>
+                <fullName>SO</fullName>
+                <default>false</default>
+                <label>SO</label>
+            </value>
+            <value>
+                <fullName>NO</fullName>
+                <default>false</default>
+                <label>NO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

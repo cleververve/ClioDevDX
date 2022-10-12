@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QL_Start_Date_is_Correct__c</fullName>
+    <description>This field is used in the Product Rule so that QL Start date is ulterior to Quote Start Date. 
+Not used on layout or QLE.</description>
+    <externalId>false</externalId>
+    <formula>IF(SBQQ__StartDate__c &gt;= SBQQ__Quote__r.SBQQ__StartDate__c, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>QL Start Date is Correct</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

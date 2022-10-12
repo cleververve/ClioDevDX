@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_Number_Check__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <defaultValue>false</defaultValue>
+    <description>Purchase Order equivalent. Used for validiation, so Opps assigned to DD always include a reference number.
+If Checked, the account will always require a reference number to be invoiced.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Beställningsnummer / Ordrenummer / Purchase Order Number.
+Needed for the customer to verify the Invoice.</inlineHelpText>
+    <label>Reference Number Check</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

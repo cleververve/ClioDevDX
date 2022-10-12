@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Info_Missing_on_Quote__c</fullName>
+    <externalId>false</externalId>
+    <formula>SBQQ__PrimaryQuote__r.Billing_Info_Missing__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Billing Info Missing on Quote</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Implementation_Owner__c</fullName>
+    <description>Used to override the Demand Tool rule &quot;15. Update Account Implementation Coordinator to Map with Municipality Implementation Coordinator 17062020&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If there is a date in this field, the implementation coordinator will not be the same as the implementation coordinator assigned on the municipality.</inlineHelpText>
+    <label>Special Implementation Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

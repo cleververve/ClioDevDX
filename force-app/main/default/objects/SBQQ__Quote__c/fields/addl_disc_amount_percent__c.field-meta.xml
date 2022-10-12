@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>addl_disc_amount_percent__c</fullName>
+    <description>- Formula field that reflects the Additional Discount that Sales manually gave by Quote Line.
+- It does NOT includes the Default discount given thanks to Contract Terms Length.
+- The field is used in: 
+     * Page Component to show the Reasons Approval Frame or not 
+     * Process Builder &quot;Approval Process Needed update Yes or No&quot;</description>
+    <externalId>false</externalId>
+    <formula>SBQQ__AdditionalDiscountAmount__c /  SBQQ__RegularAmount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Shows the Additional Discount percent based on the total Quote Additional Discount Percentage</inlineHelpText>
+    <label>Addl. Disc. %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

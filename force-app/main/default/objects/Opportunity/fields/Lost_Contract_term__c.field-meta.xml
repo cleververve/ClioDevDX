@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Contract_term__c</fullName>
+    <description>How long contract have they signed for our competitor?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How long contract have they signed for our competitor?</inlineHelpText>
+    <label>Lost Contract term</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

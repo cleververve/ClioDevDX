@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_is_Split</fullName>
+    <active>true</active>
+    <description>If there is a split allocated to the Inside Sales Account Manager, there should be a name in the field &quot;Inside Sales Account Manager&quot;. This is to ensure we can calculate commission.</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( SBQQ__PrimaryQuote__c )),
+ISNULL( Close_Date_Stamp__c ),
+OR(
+Xactly_Split_Percent_Account_Manager__c&gt;1.00,
+AND(
+Xactly_Split_Percent_Account_Manager__c&lt;1.00,
+ISBLANK(Xactly_Inside_Sales_Owner__c)),
+AND(NOT(ISBLANK( Xactly_Inside_Sales_Owner__c)), Xactly_Split_Percent_Account_Manager__c =1.00)
+),
+OR(
+ISPICKVAL( StageName,&quot;Deal Desk&quot;),
+ISPICKVAL( StageName,&quot;Closed Won&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>To resolve this issue, make sure the information in the Xactly Commission section is correct.</errorMessage>
+</ValidationRule>

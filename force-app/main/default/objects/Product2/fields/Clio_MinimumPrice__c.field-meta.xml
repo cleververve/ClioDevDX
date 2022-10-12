@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clio_MinimumPrice__c</fullName>
+    <description>Field used for the minimum quantity price rules - only on products that require it.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field used for the minimum quantity price rules - only on products that require it.</inlineHelpText>
+    <label>Minimum Price</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

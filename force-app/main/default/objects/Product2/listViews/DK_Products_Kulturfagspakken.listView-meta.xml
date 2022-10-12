@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DK_Products_Kulturfagspakken</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>SBQQ__SortOrder__c</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Product_Bundle__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Level__c</columns>
+    <columns>Bundle__c</columns>
+    <columns>SBQQ__PricingMethod__c</columns>
+    <columns>NAV_Prod_No__c</columns>
+    <columns>Clio_MinimumPrice__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>equals</operation>
+        <value>DK</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Bundle__c</field>
+        <operation>includes</operation>
+        <value>Kulturfagspakken</value>
+    </filters>
+    <label>DK Products - Kulturfagspakken</label>
+</ListView>

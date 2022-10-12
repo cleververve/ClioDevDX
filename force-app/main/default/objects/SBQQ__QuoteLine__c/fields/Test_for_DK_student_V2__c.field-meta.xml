@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_for_DK_student_V2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 0&quot;),  SBQQ__Quote__r.SBQQ__Account__r.Grade_0__c , 0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 1&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_1__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 2&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_2__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 3&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_3__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 4&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_4__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 5&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_5__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 6&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_6__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 7&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_7__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 8&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_8__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 9&quot;), SBQQ__Quote__r.SBQQ__Account__r.Grade_9__c,0) +
+IF( INCLUDES(  SBQQ__Product__r.Relevant_Grade_Picklist__c  , &quot;Grade 10&quot;),SBQQ__Quote__r.SBQQ__Account__r.Grade_10__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Students in Grades</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

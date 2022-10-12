@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Amount_Sum__c</fullName>
+    <description>Sum of Amount field for all the Sales Lines. Use this field if the Total Amount field cannot be transferred from the Sales Header (when it is not available in the ERP system).</description>
+    <externalId>false</externalId>
+    <label>Total Amount</label>
+    <summarizedField>SalesLine__c.Amount__c</summarizedField>
+    <summaryForeignKey>SalesLine__c.Sales_Header__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

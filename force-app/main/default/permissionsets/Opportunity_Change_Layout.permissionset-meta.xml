@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use for ex academy for sales to see sales opp in different layout</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Opportunity - Change Layout</label>
+    <license>Salesforce</license>
+</PermissionSet>

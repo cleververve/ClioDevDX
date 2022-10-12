@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Name_50_Max_Characters</fullName>
+    <active>false</active>
+    <description>Account Name needs to be less than 50 Characters, else they&apos;re not created in NAV.</description>
+    <errorConditionFormula>LEN( Name ) &gt;= 51</errorConditionFormula>
+    <errorMessage>The field &quot;Account Name&quot; needs to be 50 characters or less. Please shorten the name.</errorMessage>
+</ValidationRule>
